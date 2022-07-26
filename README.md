@@ -58,9 +58,9 @@ class ConstantaText {
 }
 
 ```
+```
 return ResponseJson::successJson(200, ConstantaText::NAMA_TEXT , $data);
 ```
-
 
 
 
