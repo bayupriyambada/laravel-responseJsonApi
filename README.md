@@ -78,7 +78,7 @@ return ResponseJson::successJson(200, ConstantaText::NAMA_TEXT , $data);
 ```
 - - -
 
-Jika terjadi kesalahan, tidak jalan silahkan laporkan ke discord personal saya <https://discord.com/yamayuba#6198>
+Jika terjadi kesalahan, tidak jalan silahkan laporkan ke discord personal saya <https://discord.com/channels/yamayuba#6198>
 
 
 
