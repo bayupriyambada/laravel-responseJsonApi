@@ -7,3 +7,9 @@
 ```
 composer require bayup/response
 ```
+
+### Cara menggunakannya:
+
+```
+return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
+```
