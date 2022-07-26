@@ -28,3 +28,11 @@ return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
     ]
 }
 ```
+
+### Jika mau di kustom sendiri menjadi function Helpers, berikut caranya: 
+
+```
+- App
+  - Helpers
+    - ResponseJson.php
+```
