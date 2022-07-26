@@ -62,6 +62,24 @@ class ConstantaText {
 return ResponseJson::successJson(200, ConstantaText::NAMA_TEXT , $data);
 ```
 
+### Hasil Kustomisasi menggunakan ConstantaText:
+```
+{
+    "code": 200,
+    "message": "Halo kustom text contoh jika dipakai berulang",
+    "data": [
+        {
+            "json_result_id": "87c78214-c6b8-41e5-8305-62749713954e",
+            "json_test": "Test result json kustom",
+            "dikirim_pada": "2022-07-25 23:20:12",
+        }
+    ]
+}
+```
+- - -
+
+Jika terjadi kesalahan, tidak jalan silahkan laporkan ke discord personal saya <https://discord.com/channels/@me/975941139662254100>
+
 
 
 
