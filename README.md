@@ -7,9 +7,9 @@
 ```
 composer require bayup/response
 ```
+- - -
 
 ### Cara menggunakannya, dan pastikan ResponseJson sudah ter import:
-
 ```
 return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 ```
@@ -32,7 +32,6 @@ return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 - - -
 
 ### Jika mau di kustom sendiri menjadi function Helpers, berikut caranya: 
-
 ```
 - App
   - Helpers
@@ -40,3 +39,26 @@ return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
     [Copy Paste File ResponseJson.php pada packages]
     [Ubah namespace bayup\response] => [App\Helpers]
 ```
+
+- - -
+
+### Kostum $message pada Json Menggunakan Helpers Constanta bersama CONST:
+```
+- App
+  - Helpers
+    - ResponseJson.php
+    - ConstantaText.php
+
+<?php
+
+namespace App\Helpers;
+
+class ConstantaText {
+  CONST NAMA_TEXT = 'Halo kustom text contoh jika dipakai berulang';
+}
+
+```
+
+
+
+
