@@ -1,0 +1,17 @@
+{
+    "name": "bayup/response",
+    "description": "laravel response json customize",
+    "type": "composer",
+    "license": "bayup",
+    "autoload": {
+        "psr-4": {
+            "Bayup\\Response\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bayupb"
+        }
+    ],
+    "require": {}
+}
