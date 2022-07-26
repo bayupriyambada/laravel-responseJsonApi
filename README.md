@@ -5,5 +5,5 @@
 ### Cara Install
 
 ```
-Blaaa blaa
+composer require bayup/response
 ```
