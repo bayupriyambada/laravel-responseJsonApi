@@ -13,6 +13,7 @@ composer require bayup/response
 ```
 return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 ```
+- - -
 
 ### Hasil Json Success, sebagai contoh dengan data sesuai dengan datamu:
 ```
@@ -28,6 +29,7 @@ return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
     ]
 }
 ```
+- - -
 
 ### Jika mau di kustom sendiri menjadi function Helpers, berikut caranya: 
 
@@ -35,4 +37,6 @@ return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 - App
   - Helpers
     - ResponseJson.php
+    [Copy Paste File ResponseJson.php pada packages]
+    [Ubah namespace bayup\response] => [App\Helpers]
 ```
