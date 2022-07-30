@@ -2,21 +2,21 @@
 
 ## Dikarenakan packages ini baru dan hanya sedikit, tetapi membantu anda untuk menuliskan response secara singkat.
 
-### Cara Install
+#### Cara Install
 
 ```
 composer require bayup/response
 ```
 - - -
 
-### Cara menggunakannya, dan pastikan ResponseJson sudah ter import:
-```
+#### Cara menggunakannya, dan pastikan ResponseJson sudah ter import:
+```json
 return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 ```
 - - -
 
-### Hasil Json Success, sebagai contoh dengan data sesuai dengan datamu:
-```
+#### Hasil Json Success, sebagai contoh dengan data sesuai dengan datamu:
+```json
 {
     "code": 200,
     "message": "Success get data",
@@ -31,8 +31,8 @@ return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 ```
 - - -
 
-### Jika mau di kustom sendiri menjadi function Helpers, berikut caranya: 
-```
+#### Jika mau di kustom sendiri menjadi function Helpers, berikut caranya: 
+```php
 - App
   - Helpers
     - ResponseJson.php
@@ -42,8 +42,8 @@ return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 
 - - -
 
-### Kostum $message pada Json Menggunakan Helpers Constanta bersama CONST:
-```
+#### Kostum $message pada Json Menggunakan Helpers Constanta bersama CONST:
+```php
 - App
   - Helpers
     - ResponseJson.php
@@ -58,12 +58,12 @@ class ConstantaText {
 }
 
 ```
-```
+```json
 return ResponseJson::successJson(200, ConstantaText::NAMA_TEXT , $data);
 ```
 
-### Hasil Kustomisasi menggunakan ConstantaText:
-```
+#### Hasil Kustomisasi menggunakan ConstantaText:
+```json
 {
     "code": 200,
     "message": "Halo kustom text contoh jika dipakai berulang",
