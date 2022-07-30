@@ -4,13 +4,13 @@
 
 #### Cara Install
 
-```
+```php
 composer require bayup/response
 ```
 - - -
 
 #### Cara menggunakannya, dan pastikan ResponseJson sudah ter import:
-```json
+```php
 return ResponseJson::successJson(200, 'Nama Kustomisasi' , $data);
 ```
 - - -
@@ -58,7 +58,7 @@ class ConstantaText {
 }
 
 ```
-```json
+```php
 return ResponseJson::successJson(200, ConstantaText::NAMA_TEXT , $data);
 ```
 
